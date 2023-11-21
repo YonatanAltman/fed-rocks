@@ -1,0 +1,15 @@
+:host {
+  outline: red solid 1px;
+  display: block;
+
+  .title {
+    color: darkblue;
+    font-size: 17px;
+  }
+
+  .navs {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+  }
+}

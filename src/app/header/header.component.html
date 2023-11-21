@@ -1,0 +1,7 @@
+<div class="title" (click)="onClick()">{{title}},{{email}}</div>
+<div class="navs">
+  <a *ngFor="let nav of navs" [routerLink]="nav.link">
+    {{nav.label|titlecase}}</a>
+
+  <button (click)="onClick();store.select()"></button>
+</div>
